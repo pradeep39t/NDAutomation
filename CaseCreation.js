@@ -14,8 +14,9 @@ function myFunction(){
 	if(document.getElementById('Heading_1').innerHTML=='Register Application - Address' && document.getElementsByName('arDcAddressCargoPA_addressLine1')[0].value==''){
 		document.getElementsByName('arDcAddressCargoPA_addressLine1')[0].value='Richmond Circle';
 		document.getElementsByName('arDcAddressCargoPA_addressLine22')[0].value='11th Street';
-				document.getElementsByName('arDcAddressCargoPA_city')[0].value='Bismarck';
+		document.getElementsByName('arDcAddressCargoPA_city')[0].value='Bismarck';
 		document.getElementsByName('arDcAddressCargoPA_zipCode5')[0].value='58503';
+		setTimeout(function() {}, 10000);
 		document.getElementById('arDcAddressCargoPA_validateAddr').click();
 	} 
 	if(document.getElementById('Heading_1').innerHTML=='Register Application - Address' && document.getElementsByName('arDcAddressCargoPA_addressLine1')[0].value!==''){
