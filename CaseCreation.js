@@ -16,7 +16,7 @@ function myFunction(){
 		document.getElementsByName('arDcAddressCargoPA_addressLine22')[0].value='11th Street';
 		document.getElementsByName('arDcAddressCargoPA_city')[0].value='Bismarck';
 		document.getElementsByName('arDcAddressCargoPA_zipCode5')[0].value='58503';
-		document.getElementsByName('arDcAddressCargoPA_zipCode5').fireevent "onchange";
+		//document.getElementsByName('arDcAddressCargoPA_zipCode5').fireevent "onchange";
 		setTimeout(function() {}, 10000);
 		document.getElementById('arDcAddressCargoPA_validateAddr').click();
 	} 
