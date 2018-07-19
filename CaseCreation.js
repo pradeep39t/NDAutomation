@@ -9,15 +9,15 @@ function myFunction(){
 		document.getElementsByName('appSubmittedBy')[0].value='SF';
 		document.getElementsByName('firstName')[0].value='Husband';
 		document.getElementsByName('lastName')[0].value='NDTest';
-		document.getElementById('nextButton2').click();      
+		//document.getElementById('nextButton2').click();      
     	}
 	if(document.getElementById('Heading_1').innerHTML=='Register Application - Address' && document.getElementsByName('arDcAddressCargoPA_addressLine1')[0].value==''){
 		document.getElementsByName('arDcAddressCargoPA_addressLine1')[0].value='Richmond Circle';
 		document.getElementsByName('arDcAddressCargoPA_addressLine22')[0].value='11th Street';
 		document.getElementsByName('arDcAddressCargoPA_city')[0].value='Bismarck';
 		document.getElementsByName('arDcAddressCargoPA_zipCode5')[0].value='58503';
-		document.getElementsByName('arDcAddressCargoPA_zipCode5').onchange();
-		setTimeout(function() {}, 10000);
+		document.getElementsByName('arDcAddressCargoPA_residencyCounty').onchange();
+		setTimeout(function() {}, 30000);
 		document.getElementById('arDcAddressCargoPA_validateAddr').click();
 	} 
 	if(document.getElementById('Heading_1').innerHTML=='Register Application - Address' && document.getElementsByName('arDcAddressCargoPA_addressLine1')[0].value!==''){
@@ -48,7 +48,7 @@ function myFunction(){
 		document.getElementById('Cash').checked =false;
 		document.getElementById('SNAP').checked = true;
 		document.getElementById('selAll').checked = true;
-		document.getElementById('button4').click();
+		//document.getElementById('button4').click();
 	}
 	if(document.getElementById('Heading_1').innerHTML=='Register Program - Expedited Screening'){
 		document.getElementById('expeditedCountableGrossIncome').value='200';
