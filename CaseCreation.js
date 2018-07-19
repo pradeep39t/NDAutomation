@@ -46,7 +46,7 @@ function myFunction(){
 		document.getElementById('Medicaid').checked = false;
 		document.getElementById('Cash').checked =false;
 		document.getElementById('SNAP').checked = true;
-		document.getElementById('typeCd').onchange();
+		document.getElementById('monthdateRequestedIndv_0').onchange();
 		setTimeout(function() {}, 10000);
 		document.getElementById('selAll').checked = true;
 		document.getElementById('button4').click();
