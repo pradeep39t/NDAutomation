@@ -40,14 +40,13 @@ function myFunction(){
 	}
 	if(document.getElementById('Heading_1').innerHTML=='Register Individual - Summary'){
 		document.getElementById('button4').click();
-		Household Address - Summary
 	}	
 	if(document.getElementById('Heading_1').innerHTML=='Register Program - Program'){
 		document.getElementById('maFormCd').value='AFA';
 		document.getElementById('Medicaid').checked = false;
 		document.getElementById('Cash').checked =false;
 		document.getElementById('SNAP').checked = true;
-		//document.getElementsByName('typeCd').fireevent "onchange";
+		document.getElementById('typeCd').onchange();
 		setTimeout(function() {}, 10000);
 		document.getElementById('selAll').checked = true;
 		document.getElementById('button4').click();
